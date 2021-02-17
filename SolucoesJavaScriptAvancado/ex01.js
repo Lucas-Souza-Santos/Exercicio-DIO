@@ -1,19 +1,3 @@
-let N = 7
-let numeros = [8, 10, 8, 260, 4, 10, 10]
-// let numeros = [8, 8, 8, 8, 8, 8, 8, 8]
-
-let numerosOrd = numeros.sort((a, b) => {
-    return a - b;
-})
-
-const unicos1 = numerosOrd.filter((valor, index, self) => {
-    return self.indexOf(valor) === index;
-})
-
-console.log(unicos1);
-
-
-
 let N = gets();
 let numeros = []
 
